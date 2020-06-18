@@ -3,4 +3,5 @@ Ejemplo de api en nodeJs
 # Entorno de desarrollo
 - Nodejs
 # Como correr
-- desde tu IDE o cmd correr npm install express --save y luego node server/server
+- Desde tu IDE o cmd ejecutar "npm install express --save"
+- Para iniciar ejecutar : "node server/server"
