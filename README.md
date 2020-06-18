@@ -1,7 +1,7 @@
 # api_example
 Ejemplo de api en nodeJs 
-# Requisitos
+# Entorno de desarrollo
 - Nodejs
-# Iniciar api
+# Como correr
 - instalar express: npm install express --save
 - iniciar: node server/server
