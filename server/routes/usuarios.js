@@ -15,10 +15,10 @@ app.get('/usuarios/:id', function (req, res) {
 app.get('/usuarios', function (req, res) {
     res.send(usuarios);
   });
-// agrega un usuario.
+// agrega un usuario | escribir parametros en el siguiente orden: name, ocupation y id.
 app.put('/usuarios',function (req,res ){
     
-    let body = req.body;
+    let body = req.body; 
     usuarios.push(body);
     res.send(body)
 })
