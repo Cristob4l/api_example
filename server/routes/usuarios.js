@@ -15,7 +15,7 @@ app.get('/usuarios/:id', function (req, res) {
     res.send(usuarios[id-1]);
 });
 //retorna todos los usuarios.
-app.get('/usuarios', function (req, res) {
+app.get('/', function (req, res) {
     res.send(usuarios);
   });
 // agrega un usuario | escribir parametros en postman en el siguiente orden: name, ocupation y id.s
