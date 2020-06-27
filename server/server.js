@@ -4,6 +4,8 @@ require('./config/config');
 const express = require('express');
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 const bodyParser= require('body-parser');
 
 // para parsear parametros a json.
@@ -14,8 +16,8 @@ app.use(bodyParser.json());
 app.use( require('./routes/usuarios'));
 
 // Inicializacion.
-app.listen(process.env.PORT, () => {
-    console.log('escuchando puerto :',process.env.PORT)
+app.listen(port, () => {
+    console.log(`Escuchando en el puerto: ${ port}`)
 })
 
 
